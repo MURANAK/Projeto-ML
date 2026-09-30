@@ -25,7 +25,7 @@ public class SpawnObstacles : MonoBehaviour
     {
         while(true)
         {
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(5f);
             SpawnObstacle();
         }
     }
