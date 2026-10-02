@@ -1,9 +1,7 @@
-using UnityEngine;
-
 public struct ObstacleInfo
 {
-    public int type;
-    public int yDistance;
+    public int recompensa;
+    public int distance;
 }
 
 public struct State
